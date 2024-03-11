@@ -2,15 +2,6 @@
 
 Este projeto consiste em um sistema de gerenciamento de clientes para uma empresa de limpeza de residências, desenvolvido utilizando Node.js para o backend e React para o frontend.
 
-## Sumário
-
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Pré-Requisitos](#pré-requisitos)
-- [Configuração do Projeto](#configuração-do-projeto)
-- [Backend](#backend-1)
-- [Frontend](#frontend-1)
-- [Cálculo de Rotas](#cálculo-de-rotas)
-
 ## Tecnologias Utilizadas
 
 - **Node.js** e **Express** para o backend.
