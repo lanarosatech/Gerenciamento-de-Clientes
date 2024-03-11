@@ -1,0 +1,140 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: black;
+  background-color: transparent;
+}
+
+.navbar-brand {
+  width:80px;
+}
+
+h1 {
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: black;
+  text-shadow: 1px 1px 1px rgb(44, 43, 43);
+  padding: 1%;
+}
+
+h4 {
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: black;
+  text-shadow: 1px 1px 1px rgb(62, 61, 61);
+  padding: 5px;
+}
+
+.custom-div {
+  padding-top: 30px;
+  border: 1px solid rgb(44, 43, 43);
+  height: 100px;
+  border-left-width: medium;
+  width: 400px;
+  text-align: center;
+  align-items: center;
+}
+
+.page-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Altura do footer */
+  line-height: 60px; /* Centraliza o texto no footer */
+  background-color: white;
+}
+
+.main-content {
+  padding-bottom: 80px;
+}
+
+.modal {
+  display: none; /* Inicialmente oculto */
+  position: fixed; /* Fixa a posição do modal na tela */
+  top: 0;
+  left: 0;
+  width: 100%; /* Cobrindo toda a largura da tela */
+  height: 100%; /* Cobrindo toda a altura da tela */
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+  z-index: 9999; /* Garante que o modal esteja na frente de outros elementos */
+}
+
+.modal-dialog {
+  position: absolute; /* Define a posição absoluta em relação ao modal */
+  top: 50%; /* Centraliza verticalmente */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Centraliza o modal */
+  background-color: #f9e15a;
+  /* Cor de fundo do modal */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 10px; /* Borda arredondada */
+}
+
+.row-lista {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-top: 40px;
+}
+
+.filter-header {
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.show-all-button {
+  margin-bottom: 10px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.exibir-clientes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.lista-clientes {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  top: 50%; /* Centraliza verticalmente */
+  left: 50%; /* Centraliza horizontalmente */
+  max-height: 300px; /* Defina a altura máxima da lista */
+  overflow-y: auto;
+}
+
+.lista-clientes li {
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #f9e15a;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 400px;
+  bottom: 70px; /* Espaço extra para acomodar o footer */
+  top: 20px;
+}
+
+.lista-clientes li:hover {
+  background-color: #f0f0f0;
+}
